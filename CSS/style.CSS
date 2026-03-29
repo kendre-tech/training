@@ -1,0 +1,49 @@
+
+input[type="radio"]{
+           width: auto;
+            margin-right: 5px;
+        }
+        gender-group{
+            display: flex;
+            align-items: center;
+            gap:20px;
+        }
+        body{
+            font-family: Arial,sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        form{
+             background-color:white;
+             padding: 20px;
+             border:2px solid #007BFF
+             border-radius : 10px;
+             width:300px;
+             margin:auto;
+             margin-top: 100px;
+        }
+
+        h2{
+            text-align: center;
+            color: #007BFF;
+        }
+        label{
+            font-weight: bold;
+        }
+        input,select{
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius:5px ;
+        }
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
