@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right,#ff416c,#ff4b2b);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    
+}
+h1{
+    margin:10px 0;
+}
+.about{
+    font-size:14px;
+    color:gray;
+}
+.skills ul{
+    list-style: none;
+    padding: 0;
+}
+.skills li{
+    background-color: #ff416c;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #ff4b2b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media(max-width:600px){
+    .card{
+        width: 90%;
+    }
+}
+
